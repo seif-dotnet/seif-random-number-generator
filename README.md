@@ -1,5 +1,7 @@
 # Seif.NET Random Number Generator
 
+![Seif](https://github.com/seif-dotnet/seif-random-number-generator/blob/master/assets/seif-logo.png?raw=true)
+
 A library tasked to enable the following functionality:
 
 1. Mine entropy from random sources to generate a truly random seed.
