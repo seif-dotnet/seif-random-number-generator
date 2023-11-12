@@ -2,9 +2,15 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2C85DC04-DAE8-467A-A33E-90B9766063BC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{288DC768-0F8C-45A6-805F-CAF3FFC204EA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{288DC768-0F8C-45A6-805F-CAF3FFC204EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seif.RandomNumberGenerator", "src\Seif.RandomNumberGenerator\Seif.RandomNumberGenerator.csproj", "{D5DFF866-2A8E-4E4F-A134-408685727C38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seif.Rng", "src\Seif.Rng\Seif.Rng.csproj", "{D5DFF866-2A8E-4E4F-A134-408685727C38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sandbox", "sandbox", "{52E76B8A-2416-4512-B243-870418F2EE3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seif.Rng.Sandbox", "test\sandbox\Seif.Rng.Sandbox\Seif.Rng.Sandbox.csproj", "{D0642E0D-3E24-4B6F-89CF-3A054F361D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seif.Rng.Tests", "test\Seif.Rng.Tests\Seif.Rng.Tests.csproj", "{55BD0229-67C5-49C5-A0B6-1D573CC02549}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,11 +19,22 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D5DFF866-2A8E-4E4F-A134-408685727C38} = {2C85DC04-DAE8-467A-A33E-90B9766063BC}
+		{52E76B8A-2416-4512-B243-870418F2EE3E} = {288DC768-0F8C-45A6-805F-CAF3FFC204EA}
+		{D0642E0D-3E24-4B6F-89CF-3A054F361D02} = {52E76B8A-2416-4512-B243-870418F2EE3E}
+		{55BD0229-67C5-49C5-A0B6-1D573CC02549} = {288DC768-0F8C-45A6-805F-CAF3FFC204EA}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D5DFF866-2A8E-4E4F-A134-408685727C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D5DFF866-2A8E-4E4F-A134-408685727C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5DFF866-2A8E-4E4F-A134-408685727C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5DFF866-2A8E-4E4F-A134-408685727C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0642E0D-3E24-4B6F-89CF-3A054F361D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0642E0D-3E24-4B6F-89CF-3A054F361D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0642E0D-3E24-4B6F-89CF-3A054F361D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0642E0D-3E24-4B6F-89CF-3A054F361D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BD0229-67C5-49C5-A0B6-1D573CC02549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BD0229-67C5-49C5-A0B6-1D573CC02549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BD0229-67C5-49C5-A0B6-1D573CC02549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BD0229-67C5-49C5-A0B6-1D573CC02549}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

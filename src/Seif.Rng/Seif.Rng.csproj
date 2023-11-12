@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="TestableIO.System.IO.Abstractions.Extensions" />
+      <PackageReference Include="TestableIO.System.IO.Abstractions.Wrappers" />
+    </ItemGroup>
+
 </Project>
