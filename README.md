@@ -1,6 +1,6 @@
 # Seif.NET Random Number Generator
 
-![Seif](https://github.com/seif-dotnet/seif-random-number-generator/blob/master/assets/seif-logo.png?raw=true)
+<img src="https://github.com/seif-dotnet/seif-random-number-generator/blob/main/assets/seif-logo.png" width="300" height="300">
 
 A library tasked to enable the following functionality:
 
